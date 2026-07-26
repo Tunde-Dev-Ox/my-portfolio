@@ -160,13 +160,13 @@ export default function Home() {
               whileInView="visible"
               viewport={{ once: true, margin: "-40px" }}
               ref={scrollRef}
-              className="py-6 pr-1 flex gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth px-4 mx-4"
+              className="py-6 pr-1 flex gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth px-4 mx-4 items-baseline justify-between"
               style={{
                 scrollbarWidth: "none",
               }}
             >
               {ToolsData.map((item, index) => (
-                <motion.div key={index} variants={fadeUpItem} className="snap-start shrink-0">
+                <motion.div key={index} variants={fadeUpItem} className="snap-start shrink-0 max-w-62.5 h-full">
                   <ToolsCard
                     img={item.img}
                     title={item.title}

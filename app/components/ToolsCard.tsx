@@ -10,8 +10,8 @@ const ToolsCard = ({
     subtitle?: string;
 }) => {
     return (
-        <div className="min-w-[200px] rounded-[28px] border-2 border-black bg-[#F5F5F5] shadow-[4px_4px_0px_#000] transition-all duration-300 hover:-translate-y-1 hover:shadow-[6px_6px_0px_#000] snap-start">
-            <figure className="h-[120px] w-full border-b-2 border-black bg-white rounded-t-[28px]">
+        <div className="w-full h-full rounded-[28px] border-2 border-black bg-[#F5F5F5] shadow-[4px_4px_0px_#000] transition-all duration-300 hover:-translate-y-1 hover:shadow-[6px_6px_0px_#000] snap-start">
+            <figure className="h-30 w-full border-b-2 border-black bg-white rounded-t-[28px]">
                 <Image
                     src={img}
                     alt={title}
