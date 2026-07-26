@@ -330,7 +330,7 @@ export const BlogCardData = [
         link: "https://open.substack.com/pub/notesbytunde/p/what-launching-a-3-sided-logistics?r=27yhv7&utm_campaign=post&utm_medium=web",
     },
     {
-        img: "/blog2",
+        img: "/blog2.jpg",
         title: "Why product sense will outlast every AI tool",
         date: "July 9, 2026 | Notes by Tunde",
         description: "In the age of AI, many product managers worry about becoming obsolete. But the truth is, product sense is the one skill that will always be in demand.",
