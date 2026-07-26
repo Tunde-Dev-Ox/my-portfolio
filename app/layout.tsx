@@ -15,7 +15,7 @@ const intertight = Inter_Tight({
 
 export const metadata: Metadata = {
   title: "Joseph Olatunde | Product Manager",
-  description: "I build products that solve real-world problems and drive business growth. Located in Lagos, Nigeria.",
+  description: "I build products that solve real-world problems and drive business growth. Always growing. Always building.",
 };
 
 export default function RootLayout({
