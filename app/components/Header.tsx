@@ -31,7 +31,7 @@ const Header = () => {
   ];
 
   return (
-    <header className={`h-[72px] md:h-[80px] flex justify-center border-b sticky top-0 z-50 bg-white transition-shadow duration-300 ${scrolled ? "border-gray-300 shadow-[0_2px_8px_rgba(0,0,0,0.08)]" : "border-gray-300 shadow-none"}`}>
+    <header className={`h-18 md:h-20 flex justify-center border-b sticky top-0 z-50 bg-white transition-shadow duration-300 ${scrolled ? "border-gray-300 shadow-[0_2px_8px_rgba(0,0,0,0.08)]" : "border-gray-300 shadow-none"}`}>
       <div className="max-w-5xl mx-auto flex items-center justify-between w-full px-4 md:px-6">
         <div className="border-2 border-white shadow-[4px_4px_0px_0px_#999999] p-1 bg-gray-100 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[4px_4px_0px_0px_#000]">
           <Link href="/" className="uppercase text-black font-semibold text-[1rem] tracking-wider">
@@ -46,9 +46,8 @@ const Header = () => {
               return (
                 <li
                   key={link.href}
-                  className={`border rounded-[6px] py-1.5 px-3 transition-all duration-300 hover:bg-gray-100 hover:border-gray-400 ${
-                    isActive ? "bg-gray-100 border-gray-400" : "border-gray-200"
-                  }`}
+                  className={`border rounded-md py-1.5 px-3 transition-all duration-300 hover:bg-gray-100 hover:border-gray-400 ${isActive ? "bg-gray-100 border-gray-400" : "border-gray-200"
+                    }`}
                 >
                   {link.external ? (
                     <a href={link.href} target="_blank" rel="noopener noreferrer" className="text-black text-[.9rem]">
@@ -67,11 +66,11 @@ const Header = () => {
 
         <div className="hidden md:block">
           <a
-            href="/Joseph_Olatunde_CV.pdf"
+            href="/01_Joseph_Olatunde_CV.pdf"
             download
             target="_blank"
             rel="noopener noreferrer"
-            className="border-2 rounded-[6px] border-white shadow-[4px_4px_0px_0px_#999999] py-1.5 px-3 cursor-pointer font-semibold text-[.9rem] bg-gray-100 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[4px_4px_0px_0px_#000]"
+            className="border-2 rounded-md border-white shadow-[4px_4px_0px_0px_#999999] py-1.5 px-3 cursor-pointer font-semibold text-[.9rem] bg-gray-100 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[4px_4px_0px_0px_#000]"
           >
             Download CV
           </a>
@@ -117,11 +116,10 @@ const Header = () => {
               <ul className="flex flex-col gap-3">
                 {navLinks.map((link) => {
                   const isActive = !link.external && pathname?.startsWith(link.href);
-                  const classes = `block px-4 py-3 border-2 rounded-lg font-semibold transition-all duration-200 ${
-                    isActive
+                  const classes = `block px-4 py-3 border-2 rounded-lg font-semibold transition-all duration-200 ${isActive
                       ? "bg-violet-100 border-violet-400 text-violet-700"
                       : "border-black hover:bg-gray-50 hover:-translate-y-0.5 hover:shadow-[2px_2px_0px_#000]"
-                  }`;
+                    }`;
                   return (
                     <li key={link.href}>
                       {link.external ? (
@@ -141,7 +139,7 @@ const Header = () => {
 
             <div className="mt-auto">
               <a
-                href="/Joseph_Olatunde_CV.pdf"
+                href="/01_Joseph_Olatunde_CV.pdf"
                 download
                 target="_blank"
                 rel="noopener noreferrer"
