@@ -27,7 +27,8 @@ const Header = () => {
   const navLinks = [
     { href: "/about", label: "About", external: false },
     { href: "/projects", label: "Projects", external: false },
-    { href: "mailto:iamjosephtunde@gmail.com", label: "Contact", external: true },
+    { href: "https://notesbytunde.substack.com/", label: "Blogs", external: true },
+    { href: "/future-self", label: "My future", external: false }
   ];
 
   return (

@@ -1,4 +1,4 @@
-import { GoStar, GoGear, GoGoal } from "react-icons/go";
+import { GoStar, GoGear, GoGoal, GoRocket, GoGlobe, GoZap, GoGraph, GoPlug, GoMortarBoard, GoTelescopeFill, GoLightBulb } from "react-icons/go";
 
 // this is the category data for the home page...the data on the card
 import Image from "next/image";
@@ -404,6 +404,96 @@ export const focusGroups = [
 ];
 
 
+
+// this is the data for the beliefs section on the future page
+export const futureBeliefs = [
+    {
+        icon: <GoZap className="w-6 h-6" />,
+        color: "bg-violet-100 text-violet-600",
+        title: "AI amplifies builders",
+        description:
+            "AI won't replace people who know how to identify problems, make decisions, and execute. It will dramatically increase the leverage of builders who combine product thinking with technical understanding. I want to be one of them.",
+    },
+    {
+        icon: <GoGlobe className="w-6 h-6" />,
+        color: "bg-teal-100 text-teal-600",
+        title: "Africa's biggest companies haven't been built yet",
+        description:
+            "The continent's greatest opportunities lie in education, logistics, finance, healthcare, and digital infrastructure. I believe the next generation of globally relevant technology companies will emerge by solving these problems at scale.",
+    },
+    {
+        icon: <GoGraph className="w-6 h-6" />,
+        color: "bg-blue-100 text-blue-600",
+        title: "Outcomes are the only metric that matters",
+        description:
+            "Features don't create value—better user outcomes do. Every roadmap, experiment, and product decision should ultimately improve adoption, retention, revenue, or the quality of people's lives.",
+    },
+    {
+        icon: <GoRocket className="w-6 h-6" />,
+        color: "bg-amber-100 text-amber-600",
+        title: "The hardest problems are the most rewarding",
+        description:
+            "I'm drawn to products that start with uncertainty. Building from zero, validating ideas, and turning ambiguity into something people depend on is where I create the most impact.",
+    },
+];
+
+// this is the data for the future builds section on the future page
+// export const futureBuilds = [
+//     {
+//         icon: <GoPlug className="w-6 h-6" />,
+//         color: "bg-violet-100 text-violet-600",
+//         title: "Bridging emerging markets to global opportunity",
+//         description: "Products that translate local talent, local expertise, and local businesses into the global economy — removing the geographic tax on ambition. If your ceiling is set by where you were born, that's a product problem worth solving.",
+//     },
+//     {
+//         icon: <GoTelescopeFill className="w-6 h-6" />,
+//         color: "bg-teal-100 text-teal-600",
+//         title: "Logistics & marketplace rails for African cities",
+//         description: "The physical economy is still largely unserved by software. I want to build the rails that goods, services, and capital move on — connecting informal markets to formal infrastructure.",
+//     },
+//     {
+//         icon: <GoMortarBoard className="w-6 h-6" />,
+//         color: "bg-blue-100 text-blue-600",
+//         title: "Making world-class expertise accessible",
+//         description: "Knowledge is still locked behind institutions and geography. I want to build products that give anyone, anywhere, access to guidance that today only a few people on Earth can get.",
+//     },
+//     {
+//         icon: <GoGoal className="w-6 h-6" />,
+//         color: "bg-amber-100 text-amber-600",
+//         title: "Backing founders solving hard problems",
+//         description: "Beyond building, I want to invest in and back the teams solving structural problems across Africa and the world — starting as a founder, then as an investor amplifying the builders I believe in.",
+//     },
+// ];
+export const futureBuilds = [
+    {
+        icon: <GoPlug className="w-6 h-6" />,
+        color: "bg-violet-100 text-violet-600",
+        title: "Products that unlock global opportunities",
+        description:
+            "Talent is evenly distributed, but opportunity isn't. I want to build products that remove geographic barriers and help students, professionals, creators, and businesses in emerging markets compete globally through better access to education, work, capital, and technology.",
+    },
+    {
+        icon: <GoTelescopeFill className="w-6 h-6" />,
+        color: "bg-teal-100 text-teal-600",
+        title: "Digital infrastructure for Africa",
+        description:
+            "Many industries across Africa still rely on fragmented, manual processes. I'm interested in building the platforms that modernize logistics, commerce, payments, and other essential services—the digital infrastructure that enables businesses to grow more efficiently and communities to thrive.",
+    },
+    {
+        icon: <GoMortarBoard className="w-6 h-6" />,
+        color: "bg-blue-100 text-blue-600",
+        title: "Education that changes life trajectories",
+        description:
+            "Every great teacher can transform thousands of lives, but technology can multiply that impact to millions. I want to build learning platforms that connect people with exceptional educators, personalized learning experiences, and practical skills that lead to meaningful careers.",
+    },
+    {
+        icon: <GoGoal className="w-6 h-6" />,
+        color: "bg-amber-100 text-amber-600",
+        title: "Building companies that outlive me",
+        description:
+            "My long-term ambition isn't simply to launch products—it's to build enduring technology companies that solve meaningful problems, create jobs, mentor future leaders, and leave a lasting positive impact across Africa and beyond.",
+    },
+];
 
 // this is the data for the trajectory steps section on the about page
 export const trajectorySteps = [
